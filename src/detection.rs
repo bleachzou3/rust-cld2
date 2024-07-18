@@ -104,7 +104,7 @@ pub fn detect_language_ext(text: &str, format: Format, hints: &Hints)
     unsafe {
         hints.with_c_rep(|hints_ptr| {
             let lang = CLD2_ExtDetectLanguageSummary4(
-                text.as_ptr() as *const i8, text.len() as c_int,
+                text.as_ptr() as *const c_char, text.len() as c_int,
                 format == Format::Text, hints_ptr, 0,
                 language3.as_mut_ptr(),
                 percent3.as_mut_ptr(),
