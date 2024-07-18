@@ -1,14 +1,14 @@
 [package]
 
-name = "cld2"
-version = "1.0.2"
-authors = ["Eric Kidd <git@randomhacks.net>"]
+name = "bcld2"
+version = "0.0.1"
+authors = ["bleachzou2@163.com"]
 
 description = "Detect natural language used in text using the cld2 library"
 license = "Unlicense"
 
 documentation = "https://docs.rs/cld2"
-repository = "https://github.com/emk/rust-cld2"
+repository = "https://github.com/bleachzou3/rust-cld2"
 readme = "README.md"
 keywords = ["text"]
 
